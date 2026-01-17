@@ -1,1 +1,70 @@
-<h1>olá</h1>
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8"/>
+<title>Casino Roulette Realista</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Home -->
+  <div id="start-screen">
+    <h1>🎰 Casino Roulette</h1>
+    <button id="start-btn">Jogar</button>
+  </div>
+
+  <!-- Game -->
+  <div id="game-screen" class="hidden">
+
+    <!-- Top bar -->
+    <div id="top-bar">
+      <div>💰 Saldo: <span id="balance">500</span></div>
+      <button id="inject-btn">Injectar dinheiro</button>
+      <button id="slowmo-btn">Câmara lenta</button>
+      <button id="toggle-numbers-btn">Números</button>
+    </div>
+
+    <!-- Current bet (canto direito superior) -->
+    <div id="current-bet" class="hidden" aria-live="polite"></div>
+
+    <div id="main">
+      <div id="canvas-wrap">
+        <canvas id="roulette" width="600" height="600"></canvas>
+        <div id="result-display" class="hidden" role="status"></div>
+      </div>
+
+      <div id="history">
+        <h3>Histórico</h3>
+        <div id="history-list"></div>
+      </div>
+    </div>
+
+    <!-- Numbers panel -->
+    <div id="numbers-container" class="hidden" aria-hidden="true">
+      <button id="close-numbers-btn" class="close-btn" aria-label="Fechar">✕</button>
+      <h3>Escolhe o teu número</h3>
+      <div id="numbers-grid"></div>
+
+      <div class="bet-row">
+        <input type="number" id="bet-amount" placeholder="Valor aposta (nº)" min="1">
+        <button id="place-number-bet" class="small-btn">Apostar nº</button>
+      </div>
+
+      <div id="color-bets">
+        <input type="number" id="color-bet-amount" placeholder="Valor cor" min="1">
+        <button id="bet-red-btn" class="color-bet red">Apostar Vermelho</button>
+        <button id="bet-black-btn" class="color-bet black">Apostar Preto</button>
+        <button id="bet-green-btn" class="color-bet green">Apostar Verde</button>
+      </div>
+
+      <div id="numbers-note">Nota: pode apostar no 0 como número; a aposta em verde corresponde ao 0 (payout especial).</div>
+    </div>
+
+    <div id="controls">
+      <button id="spin-btn">Rodar</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
