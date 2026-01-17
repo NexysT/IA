@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Canvas para partículas de fundo -->
+    <canvas id="particleCanvas"></canvas>
+    
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <header class="header">
+            <h1 class="title">O Meu Portfólio</h1>
+            <p class="subtitle">Projetos Interativos & Criativos</p>
+        </header>
+        
+        <main class="projects-grid">
+            <!-- Projeto 1: Snake -->
+            <div class="project-card" data-project="snake">
+                <div class="card-inner">
+                    <div class="card-icon">🐍</div>
+                    <h3 class="card-title">Snake Game</h3>
+                    <p class="card-description">Jogo clássico reimaginado</p>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+            
+            <!-- Projeto 2: Casino -->
+            <div class="project-card" data-project="roleta">
+                <div class="card-inner">
+                    <div class="card-icon">🎰</div>
+                    <h3 class="card-title">Roleta</h3>
+                    <p class="card-description">Simulador de casino</p>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+            
+            <!-- Projeto 3: Poker -->
+            <div class="project-card" data-project="poker">
+                <div class="card-inner">
+                    <div class="card-icon">🃏</div>
+                    <h3 class="card-title">Poker</h3>
+                    <p class="card-description">Texas Hold'em profissional</p>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+            
+            <!-- Projeto 4: Monopoly -->
+            <div class="project-card" data-project="monopoly">
+                <div class="card-inner">
+                    <div class="card-icon">🏠</div>
+                    <h3 class="card-title">Monopoly</h3>
+                    <p class="card-description">Jogo de tabuleiro digital</p>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+            
+            <!-- Projeto 5: Puzzle -->
+            <div class="project-card" data-project="puzzle">
+                <div class="card-inner">
+                    <div class="card-icon">🧩</div>
+                    <h3 class="card-title">Puzzle</h3>
+                    <p class="card-description">Desafio mental interativo</p>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+            
+            <!-- Projeto 6: Chess -->
+            <div class="project-card" data-project="chess">
+                <div class="card-inner">
+                    <div class="card-icon">♟️</div>
+                    <h3 class="card-title">Chess</h3>
+                    <p class="card-description">Xadrez estratégico</p>
+                    <div class="card-overlay"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Overlay de transição -->
+    <div class="page-transition"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
