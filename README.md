@@ -1,97 +1,29 @@
-<p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1437616892817969172/1461860846673068093/mage.png?ex=696c1781&is=696ac601&hm=f4881c3fdd0d52359f18c0514e6385cad3f33d3542de42c0042c9f00aa67d4cd&" width="500" />
-</p>
+# Experiências web
 
-<h1 align="center">🤖 IA HELP</h1>
+Este repositório reúne pequenos projetos em HTML, CSS e JavaScript que utilizo para experimentar interfaces, animações e lógica de jogos no navegador.
 
-<p align="center">
-  <strong>Websites e jogos simples criados com apoio de Inteligência Artificial</strong>
-</p>
+**Começar:** abre `index.html` para ver o portefólio interativo.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue" />
-  <img src="https://img.shields.io/badge/IA-Suporte%20Activo-purple" />
-  <img src="https://img.shields.io/badge/HTML-CSS-JS-orange" />
-</p>
+## O que está disponível
 
----
+| Pasta | Estado | Como experimentar |
+| :--- | :--- | :--- |
+| `roleta/` | Protótipo com implementação | Abre `roleta/index.html`. |
+| `snake/` | Estrutura inicial | Ainda não existe um jogo funcional nesta pasta. |
 
-## ✨ Sobre o Projecto
+A página inicial também apresenta cartões para ideias futuras. Esses cartões não significam que todos os jogos estejam implementados.
 
-**IA HELP** é um repositório portefólio onde desenvolvo websites e mini-jogos simples, utilizando **Inteligência Artificial como ferramenta de apoio**, não como substituição do pensamento humano.
+## Executar localmente
 
-Aqui a IA ajuda a acelerar ideias, estruturar lógica e optimizar código, mas **todas as decisões finais são humanas**.
+Não são necessárias dependências. Clona o repositório ou descarrega os ficheiros e abre o HTML no navegador. Cada experiência deve ser testada a partir da respetiva pasta.
 
----
+## O que procuro aprender
 
-## 🎯 Objectivos
+Organização de código JavaScript, estados de interface, eventos, animação e melhoria da experiência de utilização. Utilizo ferramentas de apoio ao desenvolvimento quando são úteis, revendo o resultado e documentando o que está efetivamente implementado.
 
-- Criar projectos web simples e funcionais  
-- Explorar o uso prático da IA no desenvolvimento  
-- Consolidar bases de programação web  
-- Construir um portefólio visual e interactivo  
-- Evoluir cada projecto ao longo do tempo  
+## Próximos passos
 
----
-
-## 🧠 Como a IA é usada
-
-A Inteligência Artificial é utilizada para:
-
-- Geração de estruturas base  
-- Apoio na lógica dos jogos  
-- Resolução de erros e bugs  
-- Sugestões de melhorias  
-- Acelerar prototipagem  
-
-⚠️ O código é sempre revisto, adaptado e compreendido.
-
----
-
-## 🕹️ Projectos
-
-| Jogo / Website | Descrição | Estado |
-|---------------|----------|--------|
-| 🎰 Casino Roulette | Simulação de roleta | Concluído, Esperando V2 |
-| 🐍 Snake | Snake em JavaScript puro | Em progresso |
-| ✊✋✌ Rock Paper Scissors | Jogo clássico contra o computador | Planeado |
-| 🃏 Poker | Lógica base de poker | Planeado |
-| 🏦 Monopoly | Versão simplificada | Planeado |
-
----
-
-## 📁 Estrutura do Repositório
-
-```text
-IA-HELP/
-├── assets/
-├── rock-paper-scissors/
-├── snake/
-├── casino-roulette/
-├── poker/
-├── monopoly/
-└── README.md
-```
-
-
-
-Cada pasta contém um projecto independente e autónomo.
-
----
-
-## 🚀 Roadmap
-
-- [ ] Publicar demos online (GitHub Pages)  
-- [ ] Melhorar UI/UX dos jogos  
-- [ ] Adicionar níveis de dificuldade  
-- [ ] Documentar aprendizagens por projecto  
-- [ ] Expandir lógica de jogo  
-
----
-
-## 📌 Nota Final
-
-Este repositório existe para **aprender, testar e evoluir**.  
-Não é sobre código perfeito. É sobre progresso consistente.
-
-Se estás interessado em desenvolvimento web, jogos simples ou uso consciente de IA, este projecto é para ti.
+- Completar os protótipos ainda vazios.
+- Rever navegação por teclado e comportamento em ecrãs pequenos.
+- Adicionar instruções e imagens a cada experiência.
+- Separar os projetos que cresçam o suficiente para merecer um repositório próprio.
